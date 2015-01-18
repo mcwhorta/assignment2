@@ -1,9 +1,9 @@
 table, td, th { 
-   	 border: 1px solid black
+    	border: 1px solid black
 }
 
 table > tbody > tr > th {
-   	font-style: italic;
+    	font-style: italic;
     	font-weight: normal;
 }
 
@@ -12,7 +12,7 @@ table > tbody > tr > td:nth-child(2) {
 }
 
 table > tbody > tr > td:nth-child(4) {
-   	 color:blue;
+    	color:blue;
 }
 
 table > tbody > tr:nth-child(odd) {
@@ -23,15 +23,36 @@ table > tbody > tr:nth-child(even) {
     	background-color:lightblue;
 }
 
+.outer-content {
+    	background-color:pink;
+    	height:50px;
+    	width:75%;
+    	margin-top:20px;
+   	min-height:60px;
+   	position:relative;
+}
+
+.inner-content {
+    	background-color:lightblue;
+	width:75%
+	top:30%
+    	bottom:30%;
+    	left:0;
+	right:0;
+	margin:auto;
+	position:absolute;
+	text-align:center;
+}
+
 dt:hover + dd {
-	background-color:purple;
+    	background-color:purple;
 }
 
 form {
-    margin:10px;
+    	margin:10px;
 }
 
 form, form p, form input {
-    border:1px solid black;
-    padding:5px 10px;
+    	border:1px solid black;
+    	padding:3px 10px;
 }

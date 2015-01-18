@@ -26,3 +26,12 @@ table > tbody > tr:nth-child(even) {
 dt:hover + dd {
 	background-color:purple;
 }
+
+form {
+    margin:10px;
+}
+
+form, form p, form input {
+    border:1px solid black;
+    padding:5px 10px;
+}

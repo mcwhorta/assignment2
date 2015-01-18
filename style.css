@@ -26,22 +26,21 @@ table > tbody > tr:nth-child(even) {
 .outer-content {
     	background-color:pink;
     	height:50px;
-    	width:75%;
     	margin-top:20px;
-   	min-height:60px;
    	position:relative;
+	width:75%
 }
 
 .inner-content {
     	background-color:lightblue;
-	width:75%
-	top:30%
     	bottom:30%;
     	left:0;
-	right:0;
 	margin:auto;
-	position:absolute;
+	position:absolute;	
+	right:0;
 	text-align:center;
+	top:30%;
+	width:75%;
 }
 
 dt:hover + dd {

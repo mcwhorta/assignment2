@@ -55,3 +55,7 @@ form, form p, form input {
     	border:1px solid black;
     	padding:3px 10px;
 }
+
+p img {
+    float:left;
+}
